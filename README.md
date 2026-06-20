@@ -72,4 +72,4 @@ Once started, open your web browser and navigate to `http://127.0.0.1:8000` to i
 ![Chat App Screen](https://github.com/AQadeer0/ChatAPP-/blob/82102305eeb281b5f2f6875f0e7caf92388a7aa4/APP%20INTER%20FACE.png)
 ![SEND MESSAGE](https://github.com/AQadeer0/ChatAPP-/blob/acadbfcad56a28260a7431809913b615c741aa0a/SEND%20MESSAGE.png)
 ![RECIVE MEEAGE](https://github.com/AQadeer0/ChatAPP-/blob/85a41d91f2eb07601ad2e0eaeafa115df697409d/RECVIE%20MESSAGE.png)
-![POSTGRESQL](
+![POSTGRESQL](https://github.com/AQadeer0/ChatAPP-/blob/7e027f158c6285f9d386281a73a3b438d9827f1a/POSTGRESQL%20DATA.png)
