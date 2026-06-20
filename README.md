@@ -67,3 +67,6 @@ Start the Uvicorn development server:
 uvicorn main:app --reload
 ```
 Once started, open your web browser and navigate to `http://127.0.0.1:8000` to interact with the chat interface.
+
+                                            OUTPUT 
+![Chat App Screen](image-url-here.png)
