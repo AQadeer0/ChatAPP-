@@ -29,3 +29,41 @@ Chat App/
 └── public/
     └── index.html        # Main web interface for the chat frontend
 ```
+
+⚙️ Installation & Setup
+
+1. Clone & Navigate
+
+Ensure your project files are structured as shown in the directory tree above.
+
+3. Environment Configuration (`.env`)
+
+Create or edit your `.env` file in the root directory to match your PostgreSQL server settings:
+```ini
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=ChatApp
+DB_USER=Chat
+DB_PASSWORD=qadeer1234
+```
+
+3. Install Dependencies
+
+Set up your virtual environment and install the required dependencies listed in `requirements.txt`:
+```bash
+pip install -r requirements.txt
+```
+
+4.Database Initialization
+
+Execute the `schema.sql` script inside your PostgreSQL instance to generate the necessary tables:
+```bash
+psycopg2 -h localhost -U Chat -d ChatApp -f schema.sql
+```
+5. Run the Application
+
+Start the Uvicorn development server:
+```bash
+uvicorn main:app --reload
+```
+Once started, open your web browser and navigate to `http://127.0.0.1:8000` to interact with the chat interface.
