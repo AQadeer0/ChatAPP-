@@ -69,4 +69,4 @@ uvicorn main:app --reload
 Once started, open your web browser and navigate to `http://127.0.0.1:8000` to interact with the chat interface.
 
                                             OUTPUT 
-![Chat App Screen](image-url-here.png)
+![Chat App Screen](https://github.com/AQadeer0/ChatAPP-/blob/82102305eeb281b5f2f6875f0e7caf92388a7aa4/APP%20INTER%20FACE.png)
